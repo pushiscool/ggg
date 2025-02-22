@@ -1153,8 +1153,18 @@ export default function HomeScreen() {
           Close
         </button>
         <div className="levels-container">
-          <div className="level-box ground-box" onClick={handleGroundBoxClick}  style={{  backgroundColor: '#7CFC00', // Light green for Earth  }}  >
-            <div className="title-container">
+ <div  
+    className="level-box ground-box"  
+    onClick={handleGroundBoxClick}  
+    style={{  
+      backgroundColor: '#228B22',  
+      backgroundSize: 'cover',  
+      backgroundPosition: 'center' ,
+      width: '100%', 
+      height: '100%'
+    }}  
+  >              
+    <div className="title-container">
               <div className="cover-text" style={{ fontSize: "20px" }}>
                 EARTH
               </div>
