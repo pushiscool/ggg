@@ -1155,91 +1155,36 @@ export default function HomeScreen() {
         <div className="levels-container">
           <div className="level-box ground-box" onClick={handleGroundBoxClick}>
             <div className="title-container">
-              <div className="cover-text" style={{  
-        background: 'linear-gradient(to bottom, #228B22, #1E90FF)', // Green to Blue gradient  
-        width: '200px',  
-        height: '200px',  
-        borderRadius: '10px',  
-        display: 'flex',  
-        alignItems: 'center',  
-        justifyContent: 'center',  
-        color: 'white',  
-        fontSize: '24px',  
-        fontWeight: 'bold',  
-      }}  >
-                 EARTH 🌍  
+              <div className="cover-text" style={{ fontSize: "20px" }}>
+               EARTH 🌍  
               </div>
             </div>
           </div>
           <div className="level-box mountain-box" onClick={handleBlankLevelClick}>
             <div className="title-container">
-              <div className="cover-text"   style={{  
-        background: 'linear-gradient(to top, #8B4513, #D2B48C)', // Brown to Tan gradient  
-        width: '200px',  
-        height: '200px',  
-        borderRadius: '10px',  
-        display: 'flex',  
-        alignItems: 'center',  
-        justifyContent: 'center',  
-        color: 'white',  
-        fontSize: '24px',  
-        fontWeight: 'bold',  
-      }}  >
+              <div className="cover-text" style={{ fontSize: "20px" }}>
                  MOUNTAINS 🏔️  
               </div>
             </div>
           </div>
           <div className="level-box sea-box" onClick={handleSeaBoxClick}>
             <div className="title-container">
-              <div className="cover-text"  style={{  
-        background: 'linear-gradient(to top, #1E90FF, #00BFFF)', // Dark to Light Blue gradient  
-        width: '200px',  
-        height: '200px',  
-        borderRadius: '10px',  
-        display: 'flex',  
-        alignItems: 'center',  
-        justifyContent: 'center',  
-        color: 'white',  
-        fontSize: '24px',  
-        fontWeight: 'bold',  
-      }}  >
-               OCEAN 🌊  
+              <div className="cover-text" style={{ fontSize: "20px" }}>
+                      OCEAN 🌊  
               </div>
             </div>
           </div>
           <div className="level-box sky-box" onClick={handleBlankLevelClick}>
             <div className="title-container">
-              <div className="cover-text"   style={{  
-        background: 'linear-gradient(to top, #87CEEB, #FFFFFF)', // Light Blue to White gradient  
-        width: '200px',  
-        height: '200px',  
-        borderRadius: '10px',  
-        display: 'flex',  
-        alignItems: 'center',  
-        justifyContent: 'center',  
-        color: 'white',  
-        fontSize: '24px',  
-        fontWeight: 'bold',  
-      }}    >
-              SKY ☁️  
+              <div className="cover-text" style={{ fontSize: "20px" }}>
+                SKY ☁️  
               </div>
             </div>
           </div>
           <div className="level-box sun-box" onClick={handleBlankLevelClick}>
             <div className="title-container">
-              <div className="cover-text"   style={{  
-        background: 'linear-gradient(to top, #000000, #434343)', // Black to Dark Gray gradient  
-        width: '200px',  
-        height: '200px',  
-        borderRadius: '10px',  
-        display: 'flex',  
-        alignItems: 'center',  
-        justifyContent: 'center',  
-        color: 'white',  
-        fontSize: '24px',  
-        fontWeight: 'bold',  
-      }}  >
-                 SPACE 🌌 
+              <div className="cover-text" style={{ fontSize: "20px" }}>
+               SPACE 🌌  
               </div>
             </div>
           </div>
