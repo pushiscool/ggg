@@ -1177,8 +1177,19 @@ export default function HomeScreen() {
           </div>
           <div className="level-box mountain-box" onClick={handleBlankLevelClick}  style={{  backgroundColor: '#8B4513', // SaddleBrown for Mountains  }}  >
             <div className="title-container">
-              <div className="cover-text" style={{ fontSize: "20px" }}>
-                MOUNTAINS
+              <div className="cover-text"  style={{  
+        background: 'linear-gradient(to top, #8B4513, #D2B48C)', // Brown to Tan gradient  
+        width: '200px',  
+        height: '200px',  
+        borderRadius: '10px',  
+        display: 'flex',  
+        alignItems: 'center',  
+        justifyContent: 'center',  
+        color: 'white',  
+        fontSize: '24px',  
+        fontWeight: 'bold',  
+      }}  >
+                MOUNTAINS 🏔️  
               </div>
             </div>
           </div>
