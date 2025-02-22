@@ -1153,14 +1153,14 @@ export default function HomeScreen() {
           Close
         </button>
         <div className="levels-container">
-          <div className="level-box ground-box" onClick={handleGroundBoxClick}>
+          <div className="level-box ground-box" onClick={handleGroundBoxClick}  style={{  backgroundColor: '#7CFC00', // Light green for Earth  }}  >
             <div className="title-container">
               <div className="cover-text" style={{ fontSize: "20px" }}>
                 EARTH
               </div>
             </div>
           </div>
-          <div className="level-box mountain-box" onClick={handleBlankLevelClick}>
+          <div className="level-box mountain-box" onClick={handleBlankLevelClick}  style={{  backgroundColor: '#8B4513', // SaddleBrown for Mountains  }}  >
             <div className="title-container">
               <div className="cover-text" style={{ fontSize: "20px" }}>
                 MOUNTAINS
