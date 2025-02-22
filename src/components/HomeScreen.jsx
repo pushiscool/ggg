@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { initializeGameEngine } from "./gameEngine";
 import "./HomeScreen.css";
@@ -1154,14 +1153,25 @@ export default function HomeScreen() {
           Close
         </button>
         <div className="levels-container">
-          <div className="level-box ground-box" onClick={handleGroundBoxClick}  style={{  backgroundColor: '#7CFC00', // Light green for Earth  }}  >
+          <div className="level-box ground-box" onClick={handleGroundBoxClick}>
             <div className="title-container">
-              <div className="cover-text" style={{ fontSize: "20px" }}>
-                EARTH
+              <div className="cover-text" style={{  
+        background: 'linear-gradient(to bottom, #228B22, #1E90FF)', // Green to Blue gradient  
+        width: '200px',  
+        height: '200px',  
+        borderRadius: '10px',  
+        display: 'flex',  
+        alignItems: 'center',  
+        justifyContent: 'center',  
+        color: 'white',  
+        fontSize: '24px',  
+        fontWeight: 'bold',  
+      }}  >
+                 EARTH 🌍  
               </div>
             </div>
           </div>
-          <div className="level-box mountain-box" onClick={handleBlankLevelClick}  style={{  backgroundColor: '#8B4513', // SaddleBrown for Mountains  }}  >
+          <div className="level-box mountain-box" onClick={handleBlankLevelClick}>
             <div className="title-container">
               <div className="cover-text" style={{ fontSize: "20px" }}>
                 MOUNTAINS
