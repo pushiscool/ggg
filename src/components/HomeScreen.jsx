@@ -1157,16 +1157,21 @@ export default function HomeScreen() {
     className="level-box ground-box"  
     onClick={handleGroundBoxClick}  
     style={{  
-      backgroundColor: '#228B22',  
-      backgroundSize: 'cover',  
-      backgroundPosition: 'center' ,
-      width: '100%', 
-      height: '100%'
-    }}  
+        background: 'linear-gradient(to bottom, #228B22, #1E90FF)', // Green to Blue gradient  
+        width: '200px',  
+        height: '200px',  
+        borderRadius: '10px',  
+        display: 'flex',  
+        alignItems: 'center',  
+        justifyContent: 'center',  
+        color: 'white',  
+        fontSize: '24px',  
+        fontWeight: 'bold',  
+      }}  
   >              
     <div className="title-container">
               <div className="cover-text" style={{ fontSize: "20px" }}>
-                EARTH
+               EARTH 🌍  
               </div>
             </div>
           </div>
